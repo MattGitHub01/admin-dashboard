@@ -236,9 +236,14 @@ body {
 }
 
 .tile {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 1fr 4fr 2fr;
     box-sizing: border-box;
     align-self: stretch;
     justify-self: stretch;
+    align-items: stretch;
+    justify-items: left;
     box-shadow: 0px 4px 3px rgb(211, 211, 211);
     background-color: white;
     border-left: 5px solid orange;
@@ -253,7 +258,33 @@ body {
 }
 
 .tile h3 {
-    margin-bottom: -.5rem;
+    align-self: start;
+    margin-left: -1rem;
+    margin-bottom: -2rem;
+}
+
+.tile p {
+    align-self: start;
+    margin-left: -1rem;
+    margin-top: -.3rem;
+}
+
+.tile-icons {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: right;
+    justify-self: right;
+    align-self: start;
+    margin-right: .8rem;
+    width: 100%;
+}
+
+.tile-icons img {
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    width: 1.3rem;
+    height: 1.3rem;
 }
 
 .usr-1 img {
