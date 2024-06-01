@@ -325,7 +325,7 @@ body {
     gap: .55rem;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    grid-template-rows: 3.5rem 3.5rem 3.5rem 3.5rem; /*3.83rem);*/
+    grid-template-rows: 3.5rem 3.5rem 3.5rem 3.5rem;
     align-items: center;
     justify-items: left;
     background-color: white;
