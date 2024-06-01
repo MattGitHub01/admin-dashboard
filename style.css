@@ -256,7 +256,28 @@ body {
     margin-bottom: -.5rem;
 }
 
+.usr-1 img {
+    border-radius: 50%;
+    background-color: rgb(255, 200, 0);
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
 .usr-2 img {
+    border-radius: 50%;
+    background-color: rgb(255, 200, 0);
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.usr-3 img {
+    border-radius: 50%;
+    background-color: rgb(225, 110, 217);
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.usr-4 img {
     border-radius: 50%;
     background-color: rgb(255, 200, 0);
     width: 2.25rem;
