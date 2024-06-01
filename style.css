@@ -37,7 +37,6 @@ body {
 
 .search-bar {
     display: flex;
-    align-items: top;
     width: 140%;
 }
 
@@ -114,10 +113,6 @@ body {
     background-color: rgb(255, 200, 0);
 }
 
-.bottom-acct span {
-    align-self: center;
-}
-
 .bottom-greet {
     font-size: .65rem;
 }
@@ -147,7 +142,6 @@ body {
 
 .sidebar {
     display: grid;
-    align-items: top;
     justify-items: left;
     gap: 13px;
     grid-template-rows: minmax(50px, 1fr) minmax(20rem, 6fr);
@@ -160,9 +154,7 @@ body {
     grid-row: 1 / 2;
     display: flex;
     color: white;
-    align-self: top;
     justify-self: left;
-    align-items: left;
     font-size: 1.2rem;
     font-weight: 600;
     padding-left: 1.8rem;
@@ -215,4 +207,11 @@ body {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     background-color: #e2e8f0;
+}
+
+.usr-2 img {
+    border-radius: 50%;
+    background-color: rgb(255, 200, 0);
+    width: 2.25rem;
+    height: 2.25rem;
 }
