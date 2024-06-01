@@ -3,16 +3,14 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    margin: -11px;
+    width: 101vw;
+    height: 100vh;
+    margin: -10px;
 }
 
 .container {
     display: grid;
     grid-template: .6fr 5fr / 1fr 5fr;
-    width: 100%;
-    height: 100%;
 }
 
 .header {
@@ -229,6 +227,13 @@ body {
     margin-top: -.6rem;
 }
 
+.trending-title {
+    align-self: end;
+    font-size: .9rem;
+    margin-left: .2rem;
+    margin-top: 1.8rem;
+}
+
 .projects {
     display: grid;
     gap: 1px;
@@ -317,63 +322,72 @@ body {
 
 .trending {
     display: grid;
-    height: 15.6rem;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: repeat(4, 3.83rem);
+    gap: .55rem;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    grid-template-rows: 3.5rem 3.5rem 3.5rem 3.5rem; /*3.83rem);*/
     align-items: center;
     justify-items: left;
     background-color: white;
     border-radius: 7px;
     box-shadow: 2px 4px 3px rgb(211, 211, 211);
     margin-right: 1.7rem;
-    padding-left: 1rem;
-    padding-top: .1rem;
-    padding-bottom: .2rem;
-    font-size: .6rem;
+    padding-left: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.usr-1 {
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
+.usr {
+    display: flex;
+    flex-direction: row;
+}
+
+.usr-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: .7rem;
+    font-size: .7rem;
+    color: gray;
+    font-weight: lighter;
+}
+
+.usr-tag {
+    color: black;
+    font-weight: bolder;
 }
 
 .usr-1 img {
+    margin-right: .1rem;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     border-radius: 50%;
     background-color: rgb(255, 200, 0);
     width: 2.25rem;
     height: 2.25rem;
-}
-
-.usr-2 {
-    grid-column: 1 / 3;
-    grid-row: 2 / 3
 }
 
 .usr-2 img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
     border-radius: 50%;
     background-color: rgb(255, 200, 0);
     width: 2.25rem;
     height: 2.25rem;
 }
 
-.usr-3 {
-    grid-column: 1 / 3;
-    grid-row: 3 / 4;
-}
-
 .usr-3 img {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
     border-radius: 50%;
     background-color: rgb(225, 110, 217);
     width: 2.25rem;
     height: 2.25rem;
 }
 
-.usr-4 {
-    grid-column: 1 / 3;
-    grid-row: 4 / 5;
-}
-
 .usr-4 img {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
     border-radius: 50%;
     background-color: rgb(255, 200, 0);
     width: 2.25rem;
